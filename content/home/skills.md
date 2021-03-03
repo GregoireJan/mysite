@@ -20,7 +20,7 @@ feature:
   icon: python
   icon_pack: fab
   name: Python
-  - description: 
+- description: 
   icon: r-project
   icon_pack: fab
   name: R
@@ -29,17 +29,17 @@ feature:
   icon_pack: fas
   name: SQL & PySpark
 - description: 
-icon: chart-line
-icon_pack: fas
-name: Statistics
+  icon: chart-line
+  icon_pack: fas
+  name: Statistics
 - description: 
-icon: cogs
-icon_pack: fas
-name: Machine Learning
+  icon: cogs
+  icon_pack: fas
+  name: Machine Learning
 - description: 
-icon: glasses
-icon_pack: fas
-name: Data Visualisation
+  icon: glasses
+  icon_pack: fas
+  name: Data Visualisation
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
