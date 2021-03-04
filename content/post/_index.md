@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Posts on Medium
 cms_exclude: true
 
 # View.

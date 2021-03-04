@@ -1,5 +1,5 @@
 ---
-title: Stopping opponent losing streaks"
+title: Stopping opponent losing streaks
 summary: Web-app to check which football teams are 'best' at stopping opponent losing streaks. Github repo available [here](https://github.com/GregoireJan/LosingStreak).
 tags:
 - data analysis
