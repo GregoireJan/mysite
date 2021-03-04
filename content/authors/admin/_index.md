@@ -40,9 +40,9 @@ role: Data Scientist
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
+# - icon: envelope
+#   icon_pack: fas
+#   link: '/#contact'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -78,4 +78,4 @@ highlight_name: false
 * Curious about many topics such as urban mobility, climate, mapping and many others
 * Love skiing and mountains, football and music
 
-Have a look at my projects below!
+Have a look at my projects and Medium posts below!
