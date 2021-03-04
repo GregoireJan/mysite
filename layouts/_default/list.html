@@ -1,43 +1,13 @@
-{{- define "main" -}}
-{{ partial "page_header.html" . }}
-<div class="universal-wrapper">
-  {{ with .Content }}
-  <div class="article-style">{{ . }}</div>
-  {{ end }}
-
-  {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages }}
-  <div>
-    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    <div class="article-style">
-      {{ if .Params.summary }}
-      {{ .Params.summary | plainify | emojify }}
-      {{ else if .Params.abstract }}
-      {{ .Params.abstract | plainify | emojify | truncate 250 }}
-      {{ else if .Summary }}
-      {{ .Summary | plainify | emojify }}
-      {{ end }}
-    {{ $link := .RelPermalink }}
-    {{ $target := "" }}
-    {{ with .Params.external_link }}
-      {{ $link = . }}
-      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ define "main" }}
+    {{ range .Data.Pages }}
+        <h3>
+            <!-- If external link exists in post matter -->
+            {{ if isset .Params "affiliatelink" }}
+                <a href="{{ .Params.affiliatelink }}" target="_blank">{{ .Title }}</a><span>&#8599;</span>
+            <!-- Else show internal post page -->
+            {{else}}
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </h3>
     {{ end }}
-    <div>
-      <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
-      <div class="article-style">
-        {{ if .Params.summary }}
-          {{ .Params.summary | plainify | emojify }}
-        {{ else if .Params.abstract }}
-          {{ .Params.abstract | plainify | emojify | truncate 250 }}
-        {{ else if .Summary }}
-          {{ .Summary | plainify | emojify }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-  {{ end }}
-
-  {{ partial "pagination" . }}
-</div>
-{{- end -}}
+{{ end }}
