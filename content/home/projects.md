@@ -28,7 +28,7 @@ content:
   - name: All
     tag: '*'
   - name: Python
-    tag: Python
+    tag: python
   - name: R
     tag: R
 
