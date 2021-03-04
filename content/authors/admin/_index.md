@@ -55,7 +55,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/gregjan/
-  - icon: medium
+- icon: medium
   icon_pack: fab
   link: https://gregjan.medium.com/
 
