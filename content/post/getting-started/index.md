@@ -2,8 +2,9 @@
 title: "Sketch Libraries and primitives to build buttons"
 date: 2018-01-26T21:29:52+01:00
 summary: An example of using the in-built
-affiliatelink: "https://medium.com/"
+# affiliatelink: "https://medium.com/"
 ---
+{{< newtabref  href="https://medium.com/" title="title" >}}
 <!-- ---
 title: Welcome to Wowchemy, the website builder for Hugo
 subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
