@@ -1,8 +1,16 @@
 ---
-title: "Sketch Libraries and primitives to build buttons"
-date: 2018-01-26T21:29:52+01:00
-summary: An example of using the in-built
-affiliatelink: {{< newtabref  href="https://medium.com/" title="title" >}}
+title: External Project
+summary: An example of linking directly to an external project website using `external_link`.
+tags:
+- Demo
+date: "2016-04-27T00:00:00Z"
+
+# Optional external URL for project (replaces project detail page).
+external_link: http://example.org
+
+image:
+  caption: Photo by Toa Heftiba on Unsplash
+  focal_point: Smart
 ---
 <!-- ---
 title: Welcome to Wowchemy, the website builder for Hugo
