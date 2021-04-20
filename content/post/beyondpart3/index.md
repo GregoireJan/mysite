@@ -1,5 +1,5 @@
 ---
-title: Beyond Jupyter notebooks / Part 3: ML Model deployment with Flask and Docker
+title: Beyond Jupyter notebooks / Part 3 ML Model deployment with Flask and Docker
 summary: In this article you will learn how to deploy a very simple machine learning model with Flask and build a container with Docker.
 tags:
 date: "2021-04-19T00:00:00Z"
