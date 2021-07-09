@@ -73,8 +73,7 @@ email: ""
 highlight_name: false
 ---
 
-* Converted **Data Scientist** working for [CPM Analytics](https://www.cpm.no)     [Duck Duck Go](https://duckduckgo.com)
- https://www.cpm.no/ - Oslo
+* Converted **Data Scientist** working for [CPM Analytics](https://cpm.no) - Oslo, Norway
 * Dedicated to problem-solving
 * Curious about many topics such as urban mobility, climate, mapping and many others
 * Love skiing and mountains, football and music
