@@ -73,7 +73,8 @@ email: ""
 highlight_name: false
 ---
 
-* Converted **Data Scientist** working in Accenture - Oslo, former Geophysicist
+* Converted **Data Scientist** working for [CPM Analytics](https://cpm.no)
+ https://www.cpm.no/ - Oslo
 * Dedicated to problem-solving
 * Curious about many topics such as urban mobility, climate, mapping and many others
 * Love skiing and mountains, football and music
