@@ -73,7 +73,7 @@ email: ""
 highlight_name: false
 ---
 
-* Converted **Data Scientist** working for [CPM Analytics](https://cpm.no)
+* Converted **Data Scientist** working for [CPM Analytics](https://www.cpm.no)
  https://www.cpm.no/ - Oslo
 * Dedicated to problem-solving
 * Curious about many topics such as urban mobility, climate, mapping and many others
